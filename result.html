@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Потужнометр - Ваш Рівень</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main class="container">
+    <h1 class="title">ВАШ РІВЕНЬ ПОТУЖНОСТІ</h1>
+
+    <div class="result-box">
+      <p class="score-text">Ви набрали: <span id="finalScoreDisplay">0</span> балів</p>
+      <p class="percentage-text"><span id="percentageDisplay">0</span>% Потужності</p>
+
+      <div class="power-bar-container">
+        <div class="power-bar" id="powerBar"></div>
+      </div>
+
+      <h2 class="power-level-title" id="powerLevelTitle">Рівень: Заряджений Пельмень</h2>
+      <p class="power-level-description" id="powerLevelDescription">
+        Ну що ж, початок є! Ви ще не досягли піку своєї потужності, але перший крок зроблено. Продовжуйте працювати над собою, і ваш потенціал обов'язково розкриється.
+      </p>
+
+      <a href="index.html" class="restart-button">ПРОЙТИ ТЕСТ ЩЕ РАЗ</a>
+    </div>
+
+<div class="share-container">
+    <h3>Поділися потужністю та приєднуйся до спільноти!</h3>
+    <p>Відскануй QR-код або перейди за посиланнями:</p>
+    <div class="qr-codes">
+        <div class="qr-code-item">
+            <a href="https://www.instagram.com/frognesttt" target="_blank">
+                <img src="images/inst-qr.png" alt="QR-код Instagram">
+            </a>
+            <a href="https://www.instagram.com/frognesttt" target="_blank" class="social-link">
+                @frognesttt
+            </a>
+        </div>
+        <div class="qr-code-item">
+            <a href="https://t.me/Frog_Nest" target="_blank">
+                <img src="images/telegram-qr.png" alt="QR-код Telegram">
+            </a>
+            <a href="https://t.me/Frog_Nest" target="_blank" class="social-link">
+                t.me/Frog_Nest
+            </a>
+        </div>
+    </div>
+    <p>Ділися своїм результатом у сторіз та обговорюй з нами нові проєкти!</p>
+</div>
+
+    <footer>
+      <p class="footer-text">2025 зроблено з любов’ю 💙</p>
+    </footer>
+  </main>
+
+  <script src="js/result.js"></script>
+</body>
+</html>
